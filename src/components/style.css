@@ -1,0 +1,20 @@
+.project-card {
+    /* Add styles for your card */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 25%;
+    flex-direction: column;
+
+    /* Add more styles as needed */
+  }
+  
+  .project-card:hover {
+    /* Add styles for hover effect if desired */
+    background-color: #f5f5f5;
+  }
+
+  .div-align{
+    display: inline-flex;
+  }

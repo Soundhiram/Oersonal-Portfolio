@@ -4,6 +4,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import NotifyApp from "../projects-define/notifyApp";
+import Emyy from "../projects-define/emyy";
+import BFXIntra from "../projects-define/bfx-intra"
+import P_Four from "../projects-define/pFour"
 
 export const Projects = () => {
   const projects = [];
@@ -49,11 +52,14 @@ export const Projects = () => {
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">
-                          Emyy Workers Finding App
+                        BFX Intra
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Personal Portfolio</Nav.Link>
+                        <Nav.Link eventKey="third">Emyy</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="forth">P-FOUR</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -72,17 +78,17 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <NotifyApp />
                       </Tab.Pane>
-
-                      <Tab.Pane eventKey="section"></Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                      <Tab.Pane eventKey="second">
+                        <BFXIntra />
                       </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <Emyy />
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="forth">
+                        <P_Four />
+                      </Tab.Pane>
+
+                    
                     </Tab.Content>
                   </Tab.Container>
                 </div>
